@@ -47,6 +47,25 @@ body {
 			#rectangle a button{
 				color: Black;
 			}
+			
+		#main-content table{
+			margin-top: 20px;
+			/*border: 1px solid;*/
+		}
+		
+		#table-container {
+			padding: 30px;
+		}
+		
+			table tr th{
+				text-align: center;
+			}
+			table tr td{
+				text-align: center;
+			}
+		
+		#navigation{
+		}
 	
 	#side-updates {
 		/*border: 1px solid;*/
