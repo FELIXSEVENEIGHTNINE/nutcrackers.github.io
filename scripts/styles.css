@@ -43,6 +43,10 @@ body {
 			height: 600px;
 			margin-top: 5%;
 		}
+		
+			#rectangle a button{
+				color: Black;
+			}
 	
 	#side-updates {
 		/*border: 1px solid;*/
