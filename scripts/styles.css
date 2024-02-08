@@ -11,20 +11,53 @@ body {
 	background-color: #7D7C7C;
 }
 	#logo {
-		border: 1px solid;
+		border: 0px solid;
 		float: left;
-		width: 60px;
-		height: 60px;
+		width: 500px;
+		height: 100px;
+		margin-top: -15px;
 		margin-left: 50px;
+		color: Black;
 	}
-	
+		#logo-img {
+			float: left;
+			width: 90px;
+			height: 90px;
+			margin-top: 0px;
+			color: Black;
+			text-align: left;
+		}
+		#logo-text {
+			float: left;
+			margin-top: 10px;
+			margin-left: 0px;
+			font-size: 60px;
+			color: White;
+		}
 	#manage {
-		border: 1px solid;
+		border: 0px solid;
 		float: right;
-		width: 60px;
-		height: 60px;
+		width: 250px;
+		height: 100px;
+		margin-top: -15px;
 		margin-right: 50px;
 	}
+		#manage-text {
+			float: left;
+			margin-top: 20px;
+			margin-left: 000px;
+			margin-right: -250px;
+			font-size: 25px;
+			color: White;
+		}
+		#manage-img {
+			/*border: 1px solid;*/
+			float: right;
+			width: 90px;
+			height: 90px;
+			margin-top: 0px;
+			margin-right: 0px;
+		}
 
 #content {
 	/*border: 1px solid;*/
