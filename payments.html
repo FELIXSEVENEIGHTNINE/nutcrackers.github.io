@@ -19,66 +19,68 @@
 	<body>
 		<div id="header" class="col-sm-12">
 			<div id="logo" class="col-sm-3">
-				<img src="materials\img\sun.png" width="100%">
+				<img id="logo-img" src="materials\img\sun.png" width="100%">
+				<h1 id="logo-text" class="col-sm-3"> Tracker </h1>
 			</div>
-			<h1 id="logo-text" class="col-sm-3"> Tracker </h1>
 			
-			<a href="">
+			<a href="about.html">
 			<div id="manage" class="col-sm-3">
-				<img src="materials\img\student.png" width="100%">
+				<h1 id="manage-text" class="col-sm-3"> Jane Doe </h1>
+				<img id="manage-img" src="materials\img\student.png" width="100%">
 			</div>
-			<h1 id="manage-text" class="col-sm-3"> Manage Account </h1>
 			</a>
 		</div>
 	
 		<div id="content" class="col-sm-12">
 			<div id="main-content" class="col-sm-10">
-				<h1> WELCOME CUSTOMER </h1>
+				<h1> HOME &gt Payments </h1>
+				
+				<div id="navigation">
+					<a href="home.html"><button>BACK </button></a>
+				</div>
 				
 				<div id="table-container" class="table-responsive">
 					<table class="table table-hover">
 						<tr>
 							<th><h2>Car</h2></th>
-							<th><h2>Data Added</h2></th>
-							<th><h2>Status</h2></th>
+							<th><h2>Payment Status</h2></th>
 						</tr>
 						<tr class="danger">
-							<td id="data_A-a"><h4>Suzuki</h4></td>
-							<td id="data_A-b"><h4>August 31, 2008</h4></td>
-							<td id="data_A-c"><h4>Not Started</h4></td>
-						</tr>
-						<tr class="info">
-							<td id="data_A-a"><h4>Toyota</h4></td>
-							<td id="data_A-b"><h4>February 14, 2008</h4></td>
-							<td id="data_A-c"><h4>In Progress</h4></td>
+							<td id="data_A-b"><h4>Suzuki</h4></td>
+							<td id="data_A-c"><h4>Not Paid</h4></td>
 						</tr>
 						<tr class="success">
-							<td id="data_A-a"><h4>Honda</h4></td>
-							<td id="data_A-b"><h4>December 14, 2007</h4></td>
-							<td id="data_A-c"><h4>Complete</h4></td>
+							<td id="data_A-b"><h4>Toyota</h4></td>
+							<td id="data_A-c"><h4>Paid</h4></td>
 						</tr>
 						<tr class="success">
-							<td id="data_A-a"><h4>Honda</h4></td>
-							<td id="data_A-b"><h4>December 7, 2007</h4></td>
-							<td id="data_A-c"><h4>Complete</h4></td>
+							<td id="data_A-b"><h4>Honda</h4></td>
+							<td id="data_A-c"><h4>Paid</h4></td>
 						</tr>
 						<tr class="success">
-							<td id="data_A-a"><h4>Honda</h4></td>
-							<td id="data_A-b"><h4>December 2, 2007</h4></td>
-							<td id="data_A-c"><h4>Complete</h4></td>
+							<td id="data_A-b"><h4>Honda</h4></td>
+							<td id="data_A-c"><h4>Paid</h4></td>
+						</tr>
+						<tr class="success">
+							<td id="data_A-b"><h4>Honda</h4></td>
+							<td id="data_A-c"><h4>Paid</h4></td>
 						</tr>
 					</table>
 				</div>
 				
 				
-				
 				<div id="navigation">
-					<a href=""><button>Schedule Repair </button></a>
-					<a href=""><button>Check Payments </button></a>
+					<div class="col-sm-12">
+						<center>
+						<a href="pay.html">
+							<button class="btn btn-primary btn-lg">
+								PAY ONLINE
+							</button>
+						</a>
+						</center>
+					</div>
+					
 				</div>
-				
-				
-				
 				
 				
 			</div>
